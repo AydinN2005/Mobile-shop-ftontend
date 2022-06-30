@@ -1,12 +1,16 @@
 <template>
-  <div>
-    
-  </div>
+  <v-app>
+    <nuxt />
+  </v-app>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import {Component, Vue} from "nuxt-property-decorator";
+@Component({
   name: "login"
+})
+export default class Login extends Vue{
+
 }
 </script>
 
